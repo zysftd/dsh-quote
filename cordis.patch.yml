@@ -1,0 +1,7 @@
+# dsh-quote bundle patch
+#
+# When the package is mounted through the DSH bundle channel (dsh.profile.bundles),
+# this layer inserts the plugin row into the merged composition.
+- insert:
+    - id: dsh-quote
+      name: 'dsh-quote'
