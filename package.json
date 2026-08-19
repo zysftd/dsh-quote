@@ -14,7 +14,9 @@
     "cordis.patch.yml",
     "README.md"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "node --test"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
