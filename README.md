@@ -22,8 +22,6 @@ dsh plugin --profile web add -w git+https://github.com/zysftd/dsh-quote.git
 
 bundle 层的 `cordis.patch.yml` 自动插入插件行，无需手改 profile 的 `cordis.patch.yml`。安装/更新后需重启 `dsh web`，浏览器硬刷新。
 
-本机开发时可用本地链接安装（把 `<绝对路径>` 换成你的 checkout 目录）：`dsh plugin --profile web add -w link:<绝对路径>`。
-
 卸载：
 
 ```bash
